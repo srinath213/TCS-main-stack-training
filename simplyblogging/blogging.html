@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <div class="overall">
+        <head>
+            <h2>SIMPLY BLOGGING</h2>
+            <title></title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="blog.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+            
+            <script src="blog.js"></script>
+        </head>
+        <body  >
+
+            <div class="headtag">
+                <a href="" class="text-primary">Add Blog</a>
+                <a href="#" class="text-primary">Home</a>
+                <a href="#" class="text-primary">AboutUs</a>
+                <a href="#"class="text-primary">ContactUs</a><br/><br/><br/>
+            </div>
+
+
+            Title:       <input type="text" id="title"/><br/>
+            Description :<textarea type="text" id="desc"></textarea><br>
+            <input type="file" id="imageId"/><br/>
+            <input type="button" value="Add Blog" onclick="addBlog()"/>
+            <hr/>
+            <div class="boxmod"  id="BlogList">
+                <h2>Blog</h2>
+                <div id="titleInfo"></div>
+                <div id="descInfo"></div>
+                <img src="" id="imageInfo">
+                
+            </div>
+        </body>
+    </div>
+</html>

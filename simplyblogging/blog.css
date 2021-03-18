@@ -1,0 +1,39 @@
+div.overall{
+    width: 900px;
+    height: 650px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    margin-left: 350px;
+    margin-top: 50px;
+  }
+div.boxmod{
+    border: 1px solid gray;
+    width:450px;
+    height:300px ;
+    
+}
+
+  div h2{
+      text-align: center;
+  }
+  div.headtag{
+      color: rgb(224, 106, 26);
+      margin-left: 600px;
+  }
+div textarea{
+    margin-top: 10px;
+    width: 450px;
+    height: 50px;
+
+}
+#desc {
+    margin-bottom: -1ch;
+
+}
+#imageId{
+    margin-top: 20px;
+}
+#title{
+    margin-left:45px;
+}

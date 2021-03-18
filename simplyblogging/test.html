@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>src="test.js"
+
+        values=[];
+        values1=[];
+
+        function addRecord() {
+            var inp = document.getElementById('inputtext');
+            var inp2 = document.getElementById('outtext');
+           values.push(inp.value);
+           
+
+           values1.push(inp2.value);
+           
+           inp.value = "\n";
+           inp2.value1 = "\n";
+           document.getElementById("values").innerHTML = values
+           document.getElementById("values1").innerHTML = values1
+            resetData()
+           
+         }
+  
+        function resetData(){
+              document.getElementById("inputtext").value="";
+             document.getElementById("outtext").value="";
+}      
+       
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Enter the Input</td>
+                <td><input type="text" id="inputtext" /></td>
+                  </tr>
+            <tr>
+                <td>Enter the Input</td>
+                <td><input type="text" id="outtext" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" id="add" onclick="addRecord()">Add </button>
+                <button type="button" id="display" onclick="displayRecord()">Display</button>
+                </td>
+            </tr>
+        </table>
+        
+        <div id='values'></div>
+        <div id='values1'></div>
+    </body>
+</html>
